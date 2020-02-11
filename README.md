@@ -4,27 +4,27 @@
 
 
 
-<img src="ScreenshotApp.png" width="200">
+<img src="ScreenshotApp.png" width="500">
 
 
 
 
-###Installation and Setup Instructions
+### Installation and Setup Instructions
 Example:
 Clone down this repository. You will need node and npm installed globally on your machine.
 
-##Installation:
+## Installation:
 
 npm install
 
-##To Run Test Suite:
+## To Run Test Suite:
 
 npm test
 
-##To Start Server:
+## To Start Server:
 
 npm start
 
-##To Visit App:
+## To Visit App:
 
 localhost:3000/ideas
