@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+body {
+  background-color: #efefef;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.board {
+  background-color: white;
+  width: 50%;
+  height: 80vh;
+  overflow: scroll;
+  margin: auto;
+  top: 50%;
+  margin-top: 5%;
+  border-radius: 15px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.countryBox {
+  border-bottom: 1px solid #f0f0f0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+p:not(.countryName) {
+  color: #8d8d8d;
+  margin: 5px;
+  margin-left: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.countryName {
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #bebebe;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.countryInfo {
+  margin-left: 50px;
+  width: 80%;
+}
+
+button {
+  background-color: white;
+  border: none;
+  font-size: 40px;
+  color: #999;
+  font-weight: 800;
+  outline: none;
+  height: 60px;
+}
+
+button:hover {
+  color: black;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+li:first-of-type {
+  margin-top: 5px;
+}
+
+li {
+  color: #8d8d8d;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid#ccc;
+  width: 90%;
+  margin: auto;
+  display: block;
+  height: 40px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-bottom: 1px solid black;
+}
+
+.add-tag-input {
+  width: 40%;
+  margin-left: 40px;
+}
+
+.tag {
+  display: inline;
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+@media (max-width: 940px) {
+  .countryBox {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  img {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
   }
 }
