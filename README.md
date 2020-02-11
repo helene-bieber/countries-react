@@ -4,26 +4,27 @@
 
 
 
-<img src="ScreenshotApp.png" width="48">
-![](ScreenshotApp.png | width=48)
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+<img src="ScreenshotApp.png" width="200">
 
-Installation and Setup Instructions
+
+
+
+###Installation and Setup Instructions
 Example:
 Clone down this repository. You will need node and npm installed globally on your machine.
 
-Installation:
+##Installation:
 
 npm install
 
-To Run Test Suite:
+##To Run Test Suite:
 
 npm test
 
-To Start Server:
+##To Start Server:
 
 npm start
 
-To Visit App:
+##To Visit App:
 
 localhost:3000/ideas
