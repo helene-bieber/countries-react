@@ -4,7 +4,7 @@
 
 
 
-
+<img src="ScreenshotApp.png" width="48">
 ![](ScreenshotApp.png | width=48)
 [ PRETEND OTHER SCREEN SHOT IS HERE ]
 
