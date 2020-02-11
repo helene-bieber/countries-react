@@ -6,7 +6,7 @@
 
 Project Screen Shot(s)
 Example:
-![Screenshot](ScreenshotApp.png)
+![](ScreenshotApp.png width=100)
 [ PRETEND OTHER SCREEN SHOT IS HERE ]
 
 Installation and Setup Instructions
