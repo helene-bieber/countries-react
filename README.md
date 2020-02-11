@@ -4,9 +4,8 @@
 
 
 
-Project Screen Shot(s)
-Example:
-![](ScreenshotApp.png)
+
+![](ScreenshotApp.png | width=48)
 [ PRETEND OTHER SCREEN SHOT IS HERE ]
 
 Installation and Setup Instructions
