@@ -1,4 +1,5 @@
 M1
+M2
 # Countries-React
 
 #### An application used to get informations about countries via a RESTful API, filter by country name or capital. Tags can be added by the user for each country and the user can filter the data by tag as well. Built with React, JavaScript, and CSS.
